@@ -1,0 +1,28 @@
+﻿<Window x:Class="Calcu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calcu"
+        mc:Ignorable="d"
+        Title="Calculadora" Height="267" Width="207">
+    <Grid Height="267" Width="207">
+        <Button Content="7" Height="30" HorizontalAlignment="Left" Margin="23,67,0,0" Name="Btn7" VerticalAlignment="Top" Width="35" />
+        <Button Content="8" Height="30" HorizontalAlignment="Left" Margin="64,67,0,0" Name="Btn8" VerticalAlignment="Top" Width="35" />
+        <Button Content="9" Height="30" HorizontalAlignment="Left" Margin="105,67,0,0" Name="Btn9" VerticalAlignment="Top" Width="35" />
+        <Button Content="+" Height="30" HorizontalAlignment="Left" Margin="145,67,0,0" Name="BtnSuma" VerticalAlignment="Top" Width="35" />
+        <Button Content="4" Height="30" HorizontalAlignment="Left" Margin="23,103,0,0" Name="Btn4" VerticalAlignment="Top" Width="35" />
+        <Button Content="5" Height="30" HorizontalAlignment="Left" Margin="64,103,0,0" Name="Btn5" VerticalAlignment="Top" Width="35" />
+        <Button Content="6" Height="30" HorizontalAlignment="Left" Margin="105,103,0,0" Name="Btn6" VerticalAlignment="Top" Width="35" />
+        <Button Content="-" Height="30" HorizontalAlignment="Left" Margin="146,103,0,0" Name="BtnMenos" VerticalAlignment="Top" Width="35" />
+        <Button Content="1" Height="30" HorizontalAlignment="Left" Margin="23,139,0,0" Name="Btn1" VerticalAlignment="Top" Width="35" />
+        <Button Content="2" Height="30" HorizontalAlignment="Left" Margin="64,139,0,0" Name="Btn2" VerticalAlignment="Top" Width="35" />
+        <Button Content="3" Height="30" HorizontalAlignment="Left" Margin="105,139,0,0" Name="Btn3" VerticalAlignment="Top" Width="35" />
+        <Button Content="x" Height="30" HorizontalAlignment="Left" Margin="146,139,0,0" Name="BtnMulti" VerticalAlignment="Top" Width="35" />
+        <Button Content="0" Height="30" HorizontalAlignment="Left" Margin="23,175,0,0" Name="Btn0" VerticalAlignment="Top" Width="35" />
+        <Button Content="C" Height="30" HorizontalAlignment="Left" Margin="64,175,0,0" Name="BtnC" VerticalAlignment="Top" Width="35" />
+        <Button Content="=" Height="30" HorizontalAlignment="Left" Margin="105,175,0,0" Name="BtnIgual" VerticalAlignment="Top" Width="35" />
+        <Button Content="÷" Height="30" HorizontalAlignment="Left" Margin="146,0,0,62" Name="ButDiv" VerticalAlignment="Bottom" Width="35" />
+        <TextBox Height="38" HorizontalAlignment="Left" Margin="25,21,0,0" Name="txtcaja" VerticalAlignment="Top" Width="155" Text="0" TextAlignment="Right" FontSize="20" FontWeight="Bold" IsEnabled="False" />
+    </Grid>
+</Window>
